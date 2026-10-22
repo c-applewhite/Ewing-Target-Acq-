@@ -1,6 +1,8 @@
 # Acquisition Target Finder
 
-A working leadership-facing tool for Ewing Outdoor Supply that answers one question: **where should Ewing expand, and which independent landscape / hardscape supply businesses are candidates to acquire?** It discovers businesses in a market, classifies and scores them against Ewing's product fit, enriches each market with Census demographics and building-permit activity, and presents a ranked, filterable shortlist plus an analyst-curated master list.
+An internal decision-support application that helps Ewing Outdoor Supply identify and prioritize independent landscape, hardscape, stone, masonry, and related suppliers worth investigating for acquisition. It evaluates acquisition fit, supports analyst review and shortlisting, and uses market intelligence to help leadership compare acquisition opportunities. Greenfield expansion analysis is a supporting, secondary use.
+
+**Leadership question:** Which businesses should Ewing investigate acquiring, and why?
 
 This is a mature, running MVP. For a full narrative of what the system does and how its pieces fit together, read **[PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md)** first.
 

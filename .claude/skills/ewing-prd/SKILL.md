@@ -9,6 +9,8 @@ You are turning what we've discussed into requirements for an **existing, runnin
 
 Work from what's actually in the conversation and the current code. Don't invent requirements. Where something is unknown, write it under Open questions with who probably knows the answer.
 
+Keep the product objective acquisition-centered: product scope should help identify, evaluate, prioritize, review, or shortlist potential acquisition targets. Describe market intelligence as supporting acquisition decisions and greenfield expansion as secondary; do not remove valid expansion capabilities or invent new requirements.
+
 Keep these sections, in this order:
 
 1. Problem. Two or three sentences a leadership reader would understand.

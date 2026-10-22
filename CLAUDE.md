@@ -4,7 +4,11 @@ This file is the constitution for this repo. Claude reads it at the start of eve
 
 ## What this is
 
-Acquisition Target Finder is a working leadership-facing tool for Ewing Outdoor Supply. It answers one question: **where should Ewing expand, and which independent landscape / hardscape supply businesses are candidates to acquire?** It discovers businesses in a market (by branch radius or ZIP radius), classifies them against Ewing's product fit, scores them on a transparent 100-point model, enriches each market with Census demographics and building-permit activity, and surfaces a ranked, filterable shortlist plus a master list an analyst curates by hand.
+The Acquisition Target Finder is an internal decision-support application designed to help Ewing Outdoor Supply identify and prioritize potential business acquisitions. It discovers relevant independent suppliers, evaluates acquisition fit, incorporates supporting geographic and market intelligence, and enables analysts to review and shortlist candidates for leadership consideration. Its primary purpose is to identify businesses worth investigating for acquisition; market-expansion analysis is a supporting capability.
+
+The primary leadership question is **"Which businesses should Ewing investigate acquiring, and why?"** Market intelligence helps answer **"Which markets make those acquisition opportunities more strategically attractive?"** Greenfield expansion is a complementary, secondary use case—not the product's central objective. A strong acquisition-fit score does not confirm that a company is available for sale.
+
+The current workflow discovers businesses around a branch or ZIP code, classifies them against Ewing's product fit, scores them on a transparent 100-point model, enriches the market with Census demographics and building-permit activity, and presents a ranked, filterable shortlist plus an analyst-curated master list.
 
 This is a **mature, running MVP**, not a greenfield build. It is deployed and in use (see Commands). The default posture for any change is: understand the current behavior first, make the smallest safe modification, keep the app working. The full picture of what exists today is in `PROJECT_OVERVIEW.md`; read it before planning any work. Detailed requirements, scope boundaries, and the roadmap are in `docs/PRD.md`. If the PRD and this file disagree, the PRD wins, and tell the user so it gets fixed.
 

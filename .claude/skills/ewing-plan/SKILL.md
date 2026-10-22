@@ -9,6 +9,8 @@ Read CLAUDE.md, PROJECT_OVERVIEW.md, docs/PRD.md, and docs/design-primitives.md.
 
 A slice is one thing a user can do end to end, including the data, the logic, the screen, and a test. Not a layer. "An analyst can import a customer-demand CSV and see the market's Ewing-demand figure" is a slice. "Add a table" is not.
 
+For product features, state how the slice helps identify, evaluate, prioritize, review, or shortlist potential acquisition targets, and which acquisition decision it supports. Treat market intelligence as evidence for evaluating acquisition opportunities, not as a standalone primary objective. Greenfield expansion is secondary. Do not impose this product-value test on technical maintenance tasks.
+
 For each slice:
 
 - Name, as a user sentence.

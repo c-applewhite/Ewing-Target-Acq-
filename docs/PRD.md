@@ -6,7 +6,9 @@ A fuller narrative of the current system lives in `../PROJECT_OVERVIEW.md`. This
 
 ## 1. Problem
 
-Ewing Outdoor Supply wants to grow by acquiring independent landscape and hardscape supply businesses, and by opening in markets where demand is strong. Leadership needs a way to see, market by market, which independent businesses are credible acquisition candidates and how attractive the surrounding market is — without a developer in the room and without wading through raw search dumps. Acquisition Target Finder is that view: discover businesses, score fit, enrich the market, and present a ranked shortlist an executive can read in seconds and an analyst can curate.
+The Acquisition Target Finder is an internal decision-support application designed to help Ewing Outdoor Supply identify and prioritize potential business acquisitions. It discovers relevant independent suppliers, evaluates acquisition fit, incorporates supporting geographic and market intelligence, and enables analysts to review and shortlist candidates for leadership consideration. Its primary purpose is to identify businesses worth investigating for acquisition; market-expansion analysis is a supporting capability.
+
+The core leadership question is **"Which businesses should Ewing investigate acquiring, and why?"** Supporting market intelligence helps answer **"Which markets make those acquisition opportunities more strategically attractive?"** Greenfield expansion remains a complementary, secondary use.
 
 ## 2. Users
 
@@ -32,11 +34,13 @@ This is the current, working scope. Treat each line as behavior under test.
 
 These are the agreed next increments. Build them as small vertical slices, each the smallest safe addition to the existing app. Do not start any of them without a plan approved by the user.
 
-1. **Ewing customer demand by ZIP (CSV import).** Import a file of `customer_zip, customer_id, 12_month_sales` so a market can be weighted by Ewing's own existing customer demand. This is considered the strongest forward-looking expansion signal.
-2. **Market Comparison page.** Put two or more markets side by side on the metrics the app already computes.
-3. **Expansion Opportunity rating.** A High / Medium / Low rating for a market, weighting Ewing customer demand most heavily. Must be transparent, like the existing score.
-4. **Finish the live Sale Signal check.** Complete the Brave Search–backed Sale Signal lookup once the API key is configured. Still never folds into the company score.
-5. **Leadership demo polish.** Tighten the ten-second-comprehension story for the executive view.
+1. **Ewing customer demand by ZIP (CSV import).** The analyst can import a file of `customer_zip, customer_id, 12_month_sales` to assess existing Ewing demand near potential acquisition targets. This supporting market signal does not change the company acquisition-fit score.
+2. **Market Comparison page.** Leadership and the analyst can compare markets associated with acquisition candidates side by side to help prioritize which opportunities warrant investigation, rather than rank markets as a standalone objective.
+3. **Expansion Opportunity rating.** Leadership can view a transparent High / Medium / Low market-level signal, weighted toward Ewing customer demand, as supporting context for acquisition evaluation. If retained, it remains separate from the company acquisition-fit score; greenfield expansion is secondary.
+4. **Finish the live Sale Signal check.** The analyst can use the Brave Search–backed lookup, once the API key is configured, as factual evidence for investigating whether a company appears publicly listed for sale. No Public Match remains neutral and never means the company is unavailable for acquisition.
+5. **Leadership demo polish.** Leadership can quickly understand which companies warrant acquisition investigation, why, and what relevant market context supports that assessment.
+
+The roadmap order is unchanged. Market-level signals support acquisition decisions; they do not replace company-level acquisition evaluation or make greenfield expansion the primary mission.
 
 ## 5. Out of scope / deferred
 
@@ -98,5 +102,5 @@ For each Next-scope slice, write acceptance criteria when the slice is planned, 
 | — | Build Acquisition Target Finder as a Flask + SQLite + server-rendered MVP; defer Postgres / workers / LLM / P21 / Snowflake | Project team |
 | — | Scoring is a fixed, transparent 100-point / 4-component model; Sale Signal stays out of the score | Project team |
 | — | Population uses downloadable Census vintage CSVs because the API stops serving local population after Vintage 2021 | Project team |
-| — | Ewing customer demand (CSV) is the next and strongest expansion signal | Project team |
+| — | Ewing customer demand (CSV) is the next and strongest planned supporting market signal for evaluating acquisition opportunities | Project team |
 | 2026-10 | Adopt this agentic framework (CLAUDE.md, rules, skills, prompts) to maintain the app without changing runtime behavior | Project team |
