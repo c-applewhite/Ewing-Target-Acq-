@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% block title %}Review &middot; Acquisition Target Finder{% endblock %}
+{% block content %}
+<h3 class="mb-3">Analyst Review</h3>
+
+<div class="card mb-3"><div class="card-body">
+  <div class="row g-2 align-items-end">
+    <div class="col-md-3">
+      <label class="form-label small">Search</label>
+      <input id="rf-q" type="text" class="form-control form-control-sm" placeholder="Company name...">
+    </div>
+    <div class="col-md-2">
+      <label class="form-label small">City</label>
+      <select id="rf-city" class="form-select form-select-sm"><option value="">All</option></select>
+    </div>
+    <div class="col-md-2">
+      <label class="form-label small">Classification</label>
+      <select id="rf-classification" class="form-select form-select-sm">
+        <option value="">All</option>
+        <option value="confirmed_target">Confirmed</option>
+        <option value="probable_target">Probable</option>
+        <option value="manual_review">Manual review</option>
+        <option value="excluded">Excluded</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label class="form-label small">Product</label>
+      <select id="rf-product" class="form-select form-select-sm">
+        <option value="">All</option>
+        <option value="decorative_rock">Decorative rock</option>
+        <option value="sand_gravel">Sand &amp; gravel</option>
+        <option value="soil_compost">Soil &amp; compost</option>
+        <option value="mulch">Mulch</option>
+        <option value="natural_stone">Natural stone</option>
+        <option value="pavers">Pavers</option>
+        <option value="retaining_walls">Retaining walls</option>
+        <option value="masonry">Masonry</option>
+        <option value="delivery">Delivery</option>
+      </select>
+    </div>
+    <div class="col-md-3">
+      <label class="form-label small">Pending Dedup Matches</label>
+      <button id="show-dedup" class="btn btn-sm btn-outline-warning w-100">View queue</button>
+    </div>
+  </div>
+</div></div>
+
+<div class="card"><div class="card-body">
+  <div class="table-responsive">
+    <table class="table table-sm table-hover align-middle">
+      <thead><tr>
+        <th>Company</th><th>City</th><th>Classification</th>
+        <th style="cursor:pointer" id="sort-score">Score &#8595;</th>
+        <th>Products</th><th>Reviewed</th>
+      </tr></thead>
+      <tbody id="review-body"></tbody>
+    </table>
+  </div>
+</div></div>
+
+<!-- Detail offcanvas -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="detail-panel" style="width:520px;">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="detail-title">Company</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body" id="detail-body"></div>
+</div>
+
+<!-- Dedup modal -->
+<div class="modal fade" id="dedup-modal" tabindex="-1">
+  <div class="modal-dialog modal-lg"><div class="modal-content">
+    <div class="modal-header"><h5 class="modal-title">Pending Dedup Matches</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+    <div class="modal-body"><div id="dedup-list"></div></div>
+  </div></div>
+</div>
+{% endblock %}
+{% block scripts %}<script>initReview();</script>{% endblock %}

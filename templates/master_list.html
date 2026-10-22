@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Master List &middot; Acquisition Target Finder{% endblock %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <div>
+    <h3 class="mb-0">Master List</h3>
+    <div class="text-muted small">
+      Saved companies of interest &mdash; persistent across search runs.
+    </div>
+  </div>
+  <span id="master-list-count" class="badge bg-secondary">0 saved</span>
+</div>
+
+<div class="card"><div class="card-body">
+  <div class="table-responsive">
+    <table class="table table-sm table-hover align-middle">
+      <thead><tr>
+        <th>Company</th><th>Location</th><th>Website</th>
+        <th>Classification</th><th>Sale Signal</th><th>Notes</th>
+        <th>Added</th><th></th>
+      </tr></thead>
+      <tbody id="master-list-body"></tbody>
+    </table>
+  </div>
+</div></div>
+{% endblock %}
+{% block scripts %}<script>initMasterList();</script>{% endblock %}

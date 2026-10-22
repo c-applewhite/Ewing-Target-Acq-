@@ -1,0 +1,34 @@
+name: Claude PR review
+
+# Runs the reviewer on every PR and posts findings as a comment.
+# Add ANTHROPIC_API_KEY as a repo secret before this runs.
+# Docs: https://github.com/anthropics/claude-code-action
+
+on:
+  pull_request:
+    types: [opened, synchronize, ready_for_review]
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            Review this pull request using the /ewing-review skill in this repo.
+            Post the findings as a single PR comment sorted into Blocking, Should fix, Nice to have.
+            Confirm the change does not alter acquisition scoring, company classification, or the
+            analyst review workflow unless the PR is explicitly about that, and that any such value is
+            deterministic and tested. Confirm Sale Signal is not folded into the company score and
+            that "No Public Match" is not presented as "Not For Sale". Confirm derived market data
+            (income, population, permits) is shown with its source and as-of year. Check the PR
+            description is readable by a non-developer (leadership).

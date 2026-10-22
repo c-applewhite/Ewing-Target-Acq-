@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}Results &middot; Acquisition Target Finder{% endblock %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h3 class="mb-0">Results</h3>
+  <div class="d-flex gap-2 align-items-center">
+    <button id="check-sale-signals" type="button" class="btn btn-sm btn-outline-primary">
+      Check Sale Signals
+    </button>
+    <a href="/api/export/csv" data-run-export class="btn btn-sm btn-outline-secondary">Export CSV</a>
+  </div>
+</div>
+
+<div id="sale-signal-progress" class="alert alert-info py-2 small d-none mb-3"></div>
+
+<div class="card mb-3"><div class="card-body">
+  <div class="row g-2 align-items-end">
+    <div class="col-md-3">
+      <label class="form-label small">Search</label>
+      <input id="f-q" type="text" class="form-control form-control-sm" placeholder="Company name...">
+    </div>
+    <div class="col-md-3">
+      <label class="form-label small">City</label>
+      <select id="f-city" class="form-select form-select-sm"><option value="">All</option></select>
+    </div>
+    <div class="col-md-3">
+      <label class="form-label small">Classification</label>
+      <select id="f-classification" class="form-select form-select-sm">
+        <option value="">All</option>
+        <option value="confirmed_target">Confirmed target</option>
+        <option value="probable_target">Probable target</option>
+        <option value="manual_review">Manual review</option>
+        <option value="excluded">Excluded</option>
+      </select>
+    </div>
+    <div class="col-md-3">
+      <label class="form-label small">Score Band</label>
+      <select id="f-band" class="form-select form-select-sm">
+        <option value="">All</option>
+        <option>Priority Target</option>
+        <option>Strong Candidate</option>
+        <option>Monitor / Investigate</option>
+        <option>Low Priority</option>
+      </select>
+    </div>
+  </div>
+</div></div>
+
+<div class="card"><div class="card-body">
+  <div class="table-responsive">
+    <table class="table table-sm table-hover align-middle">
+      <thead><tr>
+        <th data-sort="name">Company</th><th data-sort="city">City</th>
+        <th data-sort="classification">Classification</th>
+        <th data-sort="overall_score">Score</th><th>Band</th>
+        <th data-sort="rating">Rating</th><th data-sort="review_count">Reviews</th>
+        <th>Evidence</th><th>Sale Signal</th><th></th>
+      </tr></thead>
+      <tbody id="results-body"></tbody>
+    </table>
+  </div>
+  <nav><ul class="pagination pagination-sm" id="pagination"></ul></nav>
+</div></div>
+{% endblock %}
+{% block scripts %}<script>initResults();</script>{% endblock %}

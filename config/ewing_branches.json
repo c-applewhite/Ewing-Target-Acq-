@@ -1,0 +1,2090 @@
+[
+	{
+		"store_id": "0",
+		"branch_name": "FSC",
+		"store_type": "Home Office",
+		"address": "3441 E Harbour Dr Phoenix AZ 85034",
+		"latitude": 33.420088,
+		"longitude": -112.007675
+	},
+	{
+		"store_id": "1",
+		"branch_name": "San Leandro",
+		"store_type": "Branch",
+		"address": "2462 Polvorosa Ave San Leandro CA 94577",
+		"latitude": 37.708795,
+		"longitude": -122.188667
+	},
+	{
+		"store_id": "2",
+		"branch_name": "Sacramento",
+		"store_type": "Branch",
+		"address": "345 Richards Blvd Sacramento CA 95811",
+		"latitude": 38.597662,
+		"longitude": -121.498801
+	},
+	{
+		"store_id": "3",
+		"branch_name": "San Jose",
+		"store_type": "Branch",
+		"address": "1605 Old Bayshore Hwy San Jose CA 95112",
+		"latitude": 37.367727,
+		"longitude": -121.905198
+	},
+	{
+		"store_id": "4",
+		"branch_name": "Concord",
+		"store_type": "Branch",
+		"address": "5399 Pacheco Blvd Concord CA 94553",
+		"latitude": 37.988857,
+		"longitude": -122.071111
+	},
+	{
+		"store_id": "5",
+		"branch_name": "San Carlos",
+		"store_type": "Branch",
+		"address": "926 Bransten Road San Carlos CA 94070",
+		"latitude": 37.507204,
+		"longitude": -122.253021
+	},
+	{
+		"store_id": "6",
+		"branch_name": "Fresno",
+		"store_type": "Branch",
+		"address": "7530 N Ingram Ave Fresno CA 93711",
+		"latitude": 36.84644,
+		"longitude": -119.801364
+	},
+	{
+		"store_id": "7",
+		"branch_name": "San Bernardino",
+		"store_type": "Branch",
+		"address": "1560 E Victoria Ave San Bernardino CA 92408",
+		"latitude": 34.074944,
+		"longitude": -117.253773
+	},
+	{
+		"store_id": "8",
+		"branch_name": "Stockton",
+		"store_type": "Branch",
+		"address": "1023 S Pershing Ave Stockton CA 95206",
+		"latitude": 37.939126,
+		"longitude": -121.307158
+	},
+	{
+		"store_id": "9",
+		"branch_name": "Santa Cruz",
+		"store_type": "Branch",
+		"address": "5550 Soquel Ave Santa Cruz, California CA 95062",
+		"latitude": 36.984153,
+		"longitude": -121.977067
+	},
+	{
+		"store_id": "10",
+		"branch_name": "South El Monte",
+		"store_type": "Branch",
+		"address": "9850 E Rush St South El Monte CA 91733",
+		"latitude": 34.051458,
+		"longitude": -118.053905
+	},
+	{
+		"store_id": "11",
+		"branch_name": "Chatsworth",
+		"store_type": "Branch",
+		"address": "21101 Superior St Chatsworth CA 91311",
+		"latitude": 34.246643,
+		"longitude": -118.593198
+	},
+	{
+		"store_id": "12",
+		"branch_name": "Phoenix",
+		"store_type": "Branch",
+		"address": "3441 E Harbour Dr Phoenix AZ 85034",
+		"latitude": 33.420088,
+		"longitude": -112.007675
+	},
+	{
+		"store_id": "13",
+		"branch_name": "San Diego",
+		"store_type": "Branch",
+		"address": "7151-A Ronson Rd San Diego CA 92111",
+		"latitude": 32.828705,
+		"longitude": -117.162117
+	},
+	{
+		"store_id": "14",
+		"branch_name": "Visalia",
+		"store_type": "Branch",
+		"address": "9443 W Goshen Ave Visalia CA 93291",
+		"latitude": 36.341589,
+		"longitude": -119.396593
+	},
+	{
+		"store_id": "15",
+		"branch_name": "Deer Valley (Phoenix)",
+		"store_type": "Branch",
+		"address": "21401 N 21st Ave Phoenix AZ 85027",
+		"latitude": 33.680411,
+		"longitude": -112.103986
+	},
+	{
+		"store_id": "16",
+		"branch_name": "Bakersfield",
+		"store_type": "Branch",
+		"address": "3201 Sillect Ave Bakersfield CA 93308",
+		"latitude": 35.389164,
+		"longitude": -119.037993
+	},
+	{
+		"store_id": "17",
+		"branch_name": "Anaheim",
+		"store_type": "Branch",
+		"address": "1813 N National St Anaheim CA 92801",
+		"latitude": 33.861889,
+		"longitude": -117.918055
+	},
+	{
+		"store_id": "18",
+		"branch_name": "Dublin",
+		"store_type": "Branch",
+		"address": "6640 Sierra Ln Dublin CA 94568",
+		"latitude": 37.705365,
+		"longitude": -121.913221
+	},
+	{
+		"store_id": "19",
+		"branch_name": "Santa Ana",
+		"store_type": "Branch",
+		"address": "302 E Stevens Ave Santa Ana CA 92707",
+		"latitude": 33.694774,
+		"longitude": -117.86623
+	},
+	{
+		"store_id": "20",
+		"branch_name": "Ontario",
+		"store_type": "Branch",
+		"address": "315 N Sacramento Ave Ontario CA 91764",
+		"latitude": 34.066392,
+		"longitude": -117.61282
+	},
+	{
+		"store_id": "21",
+		"branch_name": "El Cajon",
+		"store_type": "Branch",
+		"address": "1923 John Towers Ave El Cajon CA 92020",
+		"latitude": 32.823342,
+		"longitude": -116.980044
+	},
+	{
+		"store_id": "22",
+		"branch_name": "San Marcos, CA",
+		"store_type": "Branch",
+		"address": "849 E Rancheros Dr San Marcos, California CA 92069",
+		"latitude": 33.138269,
+		"longitude": -117.13873
+	},
+	{
+		"store_id": "23",
+		"branch_name": "Carlsbad",
+		"store_type": "Branch",
+		"address": "6104 Avenida Encinas, STE E Carlsbad CA 92011",
+		"latitude": 33.11794,
+		"longitude": -117.321144
+	},
+	{
+		"store_id": "24",
+		"branch_name": "Mesa",
+		"store_type": "Branch",
+		"address": "1921 S Horne Mesa AZ 85204",
+		"latitude": 33.380303,
+		"longitude": -111.813763
+	},
+	{
+		"store_id": "25",
+		"branch_name": "Las Vegas",
+		"store_type": "Branch",
+		"address": "72 Spectrum Blvd Las Vegas NV 89101",
+		"latitude": 36.162097,
+		"longitude": -115.101689
+	},
+	{
+		"store_id": "26",
+		"branch_name": "Palm Springs",
+		"store_type": "Branch",
+		"address": "68604 Ramon Rd Cathedral City CA 92234",
+		"latitude": 33.816361,
+		"longitude": -116.465507
+	},
+	{
+		"store_id": "27",
+		"branch_name": "Torrance",
+		"store_type": "Branch",
+		"address": "20526 Gramercy Pl Torrance CA 90501",
+		"latitude": 33.844056,
+		"longitude": -118.312816
+	},
+	{
+		"store_id": "28",
+		"branch_name": "Salt Lake City",
+		"store_type": "Branch",
+		"address": "6849 S 300 West Midvale UT 84047",
+		"latitude": 40.62687,
+		"longitude": -111.899196
+	},
+	{
+		"store_id": "29",
+		"branch_name": "San Dimas",
+		"store_type": "Branch",
+		"address": "433 Borrego Ct San Dimas CA 91773",
+		"latitude": 34.101677,
+		"longitude": -117.817363
+	},
+	{
+		"store_id": "30",
+		"branch_name": "S. Sacramento",
+		"store_type": "Branch",
+		"address": "5761 Florin Perkins Rd Sacramento CA 95828",
+		"latitude": 38.521852,
+		"longitude": -121.389718
+	},
+	{
+		"store_id": "31",
+		"branch_name": "Glendale (Los Angeles)",
+		"store_type": "Branch",
+		"address": "4552 Colorado Blvd Los Angeles CA 90039",
+		"latitude": 34.141152,
+		"longitude": -118.272368
+	},
+	{
+		"store_id": "32",
+		"branch_name": "Tucson",
+		"store_type": "Branch",
+		"address": "4250 S Station Master Dr Tucson AZ 85714",
+		"latitude": 32.172277,
+		"longitude": -110.91039
+	},
+	{
+		"store_id": "33",
+		"branch_name": "Modesto",
+		"store_type": "Branch",
+		"address": "321 Kansas Ave Modesto CA 95351",
+		"latitude": 37.645619,
+		"longitude": -121.011416
+	},
+	{
+		"store_id": "34",
+		"branch_name": "Orem",
+		"store_type": "Branch",
+		"address": "712 N Orem Blvd Orem UT 84057",
+		"latitude": 40.310597,
+		"longitude": -111.703016
+	},
+	{
+		"store_id": "35",
+		"branch_name": "San Antonio",
+		"store_type": "Branch",
+		"address": "10414 N IH35 San Antonio TX 78233",
+		"latitude": 29.595456,
+		"longitude": -98.28467
+	},
+	{
+		"store_id": "36",
+		"branch_name": "Houston",
+		"store_type": "Branch",
+		"address": "5260 Brittmoore Rd Houston TX 77041",
+		"latitude": 29.844103,
+		"longitude": -95.569625
+	},
+	{
+		"store_id": "37",
+		"branch_name": "Monterey",
+		"store_type": "Branch",
+		"address": "225 Dela Vina Ave Monterey CA 93940",
+		"latitude": 36.601691,
+		"longitude": -121.86467
+	},
+	{
+		"store_id": "38",
+		"branch_name": "Lake Forest",
+		"store_type": "Branch",
+		"address": "23941 McWhorter Way Lake Forest CA 92630",
+		"latitude": 33.63581,
+		"longitude": -117.712123
+	},
+	{
+		"store_id": "39",
+		"branch_name": "San Rafael",
+		"store_type": "Branch",
+		"address": "550 Irwin St San Rafael CA 94901",
+		"latitude": 37.965432,
+		"longitude": -122.521419
+	},
+	{
+		"store_id": "40",
+		"branch_name": "Hayward Central",
+		"store_type": "Distribution Center",
+		"address": "30928 San Antonio St Hayward CA 94544",
+		"latitude": 37.6137,
+		"longitude": -122.047767
+	},
+	{
+		"store_id": "41",
+		"branch_name": "Sparks",
+		"store_type": "Branch",
+		"address": "1643 Greg Ct Sparks NV 89431",
+		"latitude": 39.522422,
+		"longitude": -119.7648
+	},
+	{
+		"store_id": "42",
+		"branch_name": "Stafford",
+		"store_type": "Branch",
+		"address": "4519 Techniplex Dr Stafford TX 77477",
+		"latitude": 29.635278,
+		"longitude": -95.581832
+	},
+	{
+		"store_id": "43",
+		"branch_name": "Clovis",
+		"store_type": "Branch",
+		"address": "1599 Menlo Ave Clovis CA 93611",
+		"latitude": 36.831604,
+		"longitude": -119.686775
+	},
+	{
+		"store_id": "44",
+		"branch_name": "Scottsdale",
+		"store_type": "Branch",
+		"address": "8381 E Gelding Dr Scottsdale, Arizona AZ 85260",
+		"latitude": 33.615196,
+		"longitude": -111.899986
+	},
+	{
+		"store_id": "45",
+		"branch_name": "Albuquerque",
+		"store_type": "Branch",
+		"address": "8601 San Mateo Blvd NE Albuquerque NM 87113",
+		"latitude": 35.182063,
+		"longitude": -106.586938
+	},
+	{
+		"store_id": "46",
+		"branch_name": "Corona",
+		"store_type": "Branch",
+		"address": "3940 N McKinley St Corona CA 92879",
+		"latitude": 33.883266,
+		"longitude": -117.516012
+	},
+	{
+		"store_id": "47",
+		"branch_name": "Austin",
+		"store_type": "Branch",
+		"address": "9533 North IH 35 Austin TX 78753",
+		"latitude": 30.359729,
+		"longitude": -97.686099
+	},
+	{
+		"store_id": "48",
+		"branch_name": "Olathe",
+		"store_type": "Branch",
+		"address": "1495 E Kansas City Rd Olathe KS 66061",
+		"latitude": 38.893843,
+		"longitude": -94.793708
+	},
+	{
+		"store_id": "49",
+		"branch_name": "Fort Collins",
+		"store_type": "Branch",
+		"address": "900-A Smithfield Dr. Fort Collins CO 80524",
+		"latitude": 40.576538,
+		"longitude": -105.00269
+	},
+	{
+		"store_id": "50",
+		"branch_name": "Highlands Ranch",
+		"store_type": "Branch",
+		"address": "9105 Commerce Center Cir Highlands Ranch CO 80129",
+		"latitude": 39.550277,
+		"longitude": -105.035584
+	},
+	{
+		"store_id": "51",
+		"branch_name": "Gilroy",
+		"store_type": "Branch",
+		"address": "351 E 9th St Gilroy CA 95020",
+		"latitude": 37.003318,
+		"longitude": -121.562539
+	},
+	{
+		"store_id": "52",
+		"branch_name": "Poway",
+		"store_type": "Branch",
+		"address": "12270 Oak Knoll Rd Poway CA 92064",
+		"latitude": 32.950479,
+		"longitude": -117.065272
+	},
+	{
+		"store_id": "53",
+		"branch_name": "Merced",
+		"store_type": "Branch",
+		"address": "1160 W 15th St Merced CA 95340",
+		"latitude": 37.302696,
+		"longitude": -120.494828
+	},
+	{
+		"store_id": "54",
+		"branch_name": "Duncanville",
+		"store_type": "Branch",
+		"address": "1419 S Alexander Ave Duncanville TX 75137",
+		"latitude": 32.635465,
+		"longitude": -96.899429
+	},
+	{
+		"store_id": "55",
+		"branch_name": "N. San Antonio",
+		"store_type": "Branch",
+		"address": "5826 Hawk Springs, Ste 1103 San Antonio TX 78249",
+		"latitude": 29.560947,
+		"longitude": -98.599749
+	},
+	{
+		"store_id": "56",
+		"branch_name": "Plano",
+		"store_type": "Branch",
+		"address": "1309 Capital Ave Plano TX 75074",
+		"latitude": 33.011484,
+		"longitude": -96.694264
+	},
+	{
+		"store_id": "57",
+		"branch_name": "North Richland Hills",
+		"store_type": "Branch",
+		"address": "5207 Davis Blvd North Richland Hills TX 76180",
+		"latitude": 32.842289,
+		"longitude": -97.215312
+	},
+	{
+		"store_id": "58",
+		"branch_name": "Fremont",
+		"store_type": "Branch",
+		"address": "43055 Osgood Rd, Ste A Fremont CA 94539",
+		"latitude": 37.521314,
+		"longitude": -121.947823
+	},
+	{
+		"store_id": "59",
+		"branch_name": "Lehi",
+		"store_type": "Branch",
+		"address": "305 S 850 East, Unit 106B Lehi UT 84043",
+		"latitude": 40.384176,
+		"longitude": -111.834129
+	},
+	{
+		"store_id": "60",
+		"branch_name": "El Paso",
+		"store_type": "Branch",
+		"address": "3630 Durazno Ave El Paso TX 79905",
+		"latitude": 31.776326,
+		"longitude": -106.449848
+	},
+	{
+		"store_id": "61",
+		"branch_name": "W. Los Angeles",
+		"store_type": "Branch",
+		"address": "2241 Corinth Ave Los Angeles CA 90064",
+		"latitude": 34.036154,
+		"longitude": -118.44129
+	},
+	{
+		"store_id": "62",
+		"branch_name": "Spring",
+		"store_type": "Branch",
+		"address": "1935 Spring Cypress Rd Spring TX 77388",
+		"latitude": 30.069873,
+		"longitude": -95.44449
+	},
+	{
+		"store_id": "63",
+		"branch_name": "Chula Vista",
+		"store_type": "Branch",
+		"address": "591 C St, Ste B Chula Vista CA 91910",
+		"latitude": 32.648915,
+		"longitude": -117.095517
+	},
+	{
+		"store_id": "64",
+		"branch_name": "Oklahoma City",
+		"store_type": "Branch",
+		"address": "13831 N Lincoln Blvd Oklahoma City OK 73013",
+		"latitude": 35.611321,
+		"longitude": -97.505417
+	},
+	{
+		"store_id": "65",
+		"branch_name": "Tulsa",
+		"store_type": "Branch",
+		"address": "5907 S 107th E Ave Tulsa OK 74146",
+		"latitude": 36.076438,
+		"longitude": -95.857229
+	},
+	{
+		"store_id": "66",
+		"branch_name": "Lee's Summit",
+		"store_type": "Branch",
+		"address": "310 N.W. Capital Dr. Lee's Summit MO 64086",
+		"latitude": 38.937928,
+		"longitude": -94.388306
+	},
+	{
+		"store_id": "67",
+		"branch_name": "Roy",
+		"store_type": "Branch",
+		"address": "1921 W 3350 South Roy UT 84067",
+		"latitude": 41.203139,
+		"longitude": -112.027372
+	},
+	{
+		"store_id": "68",
+		"branch_name": "Mesquite",
+		"store_type": "Branch",
+		"address": "1020 Neville Ct Mesquite TX 75150",
+		"latitude": 32.795225,
+		"longitude": -96.61284
+	},
+	{
+		"store_id": "69",
+		"branch_name": "Apex",
+		"store_type": "Branch",
+		"address": "1700A North Salem St Apex NC 27523",
+		"latitude": 35.749755,
+		"longitude": -78.847027
+	},
+	{
+		"store_id": "70",
+		"branch_name": "Raleigh",
+		"store_type": "Branch+",
+		"address": "3609 Jones Sausage Rd Garner NC 27529",
+		"latitude": 35.730441,
+		"longitude": -78.576146
+	},
+	{
+		"store_id": "71",
+		"branch_name": "West Monroe",
+		"store_type": "Branch",
+		"address": "402 Downing Pines Rd West Monroe LA 71292",
+		"latitude": 32.501631,
+		"longitude": -92.165905
+	},
+	{
+		"store_id": "72",
+		"branch_name": "Lafayette",
+		"store_type": "Branch",
+		"address": "2411 S College Rd Lafayette LA 70508",
+		"latitude": 30.184549,
+		"longitude": -91.995467
+	},
+	{
+		"store_id": "73",
+		"branch_name": "Mandeville",
+		"store_type": "Branch",
+		"address": "68710 Highway 59 Mandeville LA 70471",
+		"latitude": 30.433149,
+		"longitude": -90.040413
+	},
+	{
+		"store_id": "74",
+		"branch_name": "W. Phoenix",
+		"store_type": "Branch",
+		"address": "7920 W Thomas Rd Phoenix AZ 85033",
+		"latitude": 33.480341,
+		"longitude": -112.228482
+	},
+	{
+		"store_id": "75",
+		"branch_name": "S. Las Vegas",
+		"store_type": "Branch",
+		"address": "6330 Annie Oakley Dr Las Vegas NV 89120",
+		"latitude": 36.074271,
+		"longitude": -115.086502
+	},
+	{
+		"store_id": "76",
+		"branch_name": "Ventura",
+		"store_type": "Branch",
+		"address": "4748 McGrath St Ventura CA 93003",
+		"latitude": 34.254084,
+		"longitude": -119.228242
+	},
+	{
+		"store_id": "77",
+		"branch_name": "Las Cruces",
+		"store_type": "Branch",
+		"address": "2341 Westgate Ct Las Cruces, New Mexico NM 88005",
+		"latitude": 32.298223,
+		"longitude": -106.808338
+	},
+	{
+		"store_id": "78",
+		"branch_name": "Santa Fe",
+		"store_type": "Branch",
+		"address": "20 Bisbee Ct Santa Fe NM 87508",
+		"latitude": 35.596269,
+		"longitude": -106.041585
+	},
+	{
+		"store_id": "79",
+		"branch_name": "Chico",
+		"store_type": "Branch",
+		"address": "163 Commercial Ave Chico CA 95973",
+		"latitude": 39.768077,
+		"longitude": -121.870819
+	},
+	{
+		"store_id": "80",
+		"branch_name": "Commerce City",
+		"store_type": "Branch",
+		"address": "4895 Olive St Commerce City SC 80022",
+		"latitude": 39.784966,
+		"longitude": -104.907737
+	},
+	{
+		"store_id": "81",
+		"branch_name": "Conroe",
+		"store_type": "Branch",
+		"address": "700 W Davis St Conroe TX 77301",
+		"latitude": 30.312781,
+		"longitude": -95.463529
+	},
+	{
+		"store_id": "82",
+		"branch_name": "Amarillo",
+		"store_type": "Branch",
+		"address": "6664 Canyon Dr Amarillo TX 79109",
+		"latitude": 35.135685,
+		"longitude": -101.89711
+	},
+	{
+		"store_id": "83",
+		"branch_name": "Abilene",
+		"store_type": "Branch",
+		"address": "1575 Dunnam Dr Abilene TX 79602",
+		"latitude": 32.391721,
+		"longitude": -99.741566
+	},
+	{
+		"store_id": "84",
+		"branch_name": "S. Fort Worth",
+		"store_type": "Branch",
+		"address": "7445 S Hulen St Fort Worth TX 76133",
+		"latitude": 32.635821,
+		"longitude": -97.391537
+	},
+	{
+		"store_id": "85",
+		"branch_name": "Springdale",
+		"store_type": "Branch",
+		"address": "3902 W. Kelley Ave., Ste. B Springdale AR 72762",
+		"latitude": 36.178496,
+		"longitude": -94.173275
+	},
+	{
+		"store_id": "86",
+		"branch_name": "San Francisco",
+		"store_type": "Branch",
+		"address": "1618 Jerrold Ave San Francisco CA 94124",
+		"latitude": 37.739315,
+		"longitude": -122.38978
+	},
+	{
+		"store_id": "87",
+		"branch_name": "Springfield",
+		"store_type": "Branch",
+		"address": "1841 W Sunset St Springfield MO 65807",
+		"latitude": 37.167111,
+		"longitude": -93.318579
+	},
+	{
+		"store_id": "88",
+		"branch_name": "Wichita",
+		"store_type": "Branch",
+		"address": "3830 N Toben St Wichita KS 67226",
+		"latitude": 37.755064,
+		"longitude": -97.23093
+	},
+	{
+		"store_id": "89",
+		"branch_name": "Midland-Odessa",
+		"store_type": "Branch",
+		"address": "6895 E Business 20 Odessa TX 79762",
+		"latitude": 31.880301,
+		"longitude": -102.298932
+	},
+	{
+		"store_id": "90",
+		"branch_name": "McAllen",
+		"store_type": "Branch",
+		"address": "1312 E Upas Ave McAllen TX 78501",
+		"latitude": 26.218992,
+		"longitude": -98.202318
+	},
+	{
+		"store_id": "91",
+		"branch_name": "Clearwater",
+		"store_type": "Branch",
+		"address": "2040 Range Rd Clearwater FL 33765",
+		"latitude": 27.979416,
+		"longitude": -82.753289
+	},
+	{
+		"store_id": "92",
+		"branch_name": "Sarasota",
+		"store_type": "Branch",
+		"address": "6235 S McIntosh Rd Sarasota FL 34238",
+		"latitude": 27.263468,
+		"longitude": -82.480649
+	},
+	{
+		"store_id": "93",
+		"branch_name": "Temecula",
+		"store_type": "Branch",
+		"address": "27562 Commerce Center Dr Temecula CA 92590",
+		"latitude": 33.51357,
+		"longitude": -117.161817
+	},
+	{
+		"store_id": "94",
+		"branch_name": "Phoenix",
+		"store_type": "Branch",
+		"address": "1811 W Peoria Ave Phoenix AZ 85029",
+		"latitude": 33.581385,
+		"longitude": -112.098101
+	},
+	{
+		"store_id": "95",
+		"branch_name": "Tempe",
+		"store_type": "Branch",
+		"address": "1221 E Curry Rd Tempe, Arizona AZ 85288",
+		"latitude": 33.440129,
+		"longitude": -111.919366
+	},
+	{
+		"store_id": "96",
+		"branch_name": "Chandler",
+		"store_type": "Branch",
+		"address": "18 S Roosevelt Ave Chandler AZ 85226",
+		"latitude": 33.301474,
+		"longitude": -111.95176
+	},
+	{
+		"store_id": "97",
+		"branch_name": "Peoria",
+		"store_type": "Branch",
+		"address": "19085 N. 83rd Ave., Ste. B Peoria AZ 85382",
+		"latitude": 33.657184,
+		"longitude": -112.237012
+	},
+	{
+		"store_id": "98",
+		"branch_name": "Hayward",
+		"store_type": "Branch",
+		"address": "30928 San Antonio St Hayward CA 94544",
+		"latitude": 37.6137,
+		"longitude": -122.047767
+	},
+	{
+		"store_id": "99",
+		"branch_name": "N. Mesa",
+		"store_type": "Branch",
+		"address": "2661 N Ogden Rd Mesa AZ 85215",
+		"latitude": 33.464379,
+		"longitude": -111.738557
+	},
+	{
+		"store_id": "100",
+		"branch_name": "W. Las Vegas",
+		"store_type": "Branch",
+		"address": "4705 S Valley View Blvd Las Vegas NV 89103",
+		"latitude": 36.104242,
+		"longitude": -115.190551
+	},
+	{
+		"store_id": "101",
+		"branch_name": "Friendswood",
+		"store_type": "Branch",
+		"address": "4319 FM 2351 Rd Friendswood TX 77546",
+		"latitude": 29.550857,
+		"longitude": -95.18234
+	},
+	{
+		"store_id": "102",
+		"branch_name": "S. Oklahoma City (Norman)",
+		"store_type": "Branch",
+		"address": "5641 Huettner Dr Norman OK 73069",
+		"latitude": 35.287355,
+		"longitude": -97.483673
+	},
+	{
+		"store_id": "103",
+		"branch_name": "Signal Hill",
+		"store_type": "Branch",
+		"address": "2899 Walnut Ave Signal Hill CA 90755",
+		"latitude": 33.809664,
+		"longitude": -118.172515
+	},
+	{
+		"store_id": "104",
+		"branch_name": "Dallas",
+		"store_type": "Branch",
+		"address": "10525 Wire Way Dallas TX 75220",
+		"latitude": 32.867676,
+		"longitude": -96.905337
+	},
+	{
+		"store_id": "105",
+		"branch_name": "Laredo",
+		"store_type": "Branch",
+		"address": "1802 Aduanales Ln Laredo TX 78041",
+		"latitude": 27.542943,
+		"longitude": -99.51372
+	},
+	{
+		"store_id": "106",
+		"branch_name": "N. Tucson",
+		"store_type": "Branch",
+		"address": "4905 N Shamrock Pl Tucson AZ 85705",
+		"latitude": 32.296167,
+		"longitude": -111.007051
+	},
+	{
+		"store_id": "107",
+		"branch_name": "S. Austin",
+		"store_type": "Branch",
+		"address": "9000 S Congress Ave Austin TX 78745",
+		"latitude": 30.168592,
+		"longitude": -97.788909
+	},
+	{
+		"store_id": "108",
+		"branch_name": "Baton Rouge",
+		"store_type": "Branch",
+		"address": "11638 Cloverland Ave Baton Rouge LA 70809",
+		"latitude": 30.390646,
+		"longitude": -91.051666
+	},
+	{
+		"store_id": "109",
+		"branch_name": "Ridgeland",
+		"store_type": "Branch",
+		"address": "112 E Marketridge Dr Ridgeland MS 39157",
+		"latitude": 32.408172,
+		"longitude": -90.171781
+	},
+	{
+		"store_id": "111",
+		"branch_name": "Hutto",
+		"store_type": "Branch+",
+		"address": "245 Benelli Dr Hutto TX 78634",
+		"latitude": 30.531975,
+		"longitude": -97.600017
+	},
+	{
+		"store_id": "113",
+		"branch_name": "Marietta",
+		"store_type": "Branch",
+		"address": "934 Jamerson Rd Marietta, Georgia GA 30066",
+		"latitude": 34.0686,
+		"longitude": -84.523114
+	},
+	{
+		"store_id": "114",
+		"branch_name": "Alpharetta",
+		"store_type": "Branch",
+		"address": "4080 Nine McFarland Dr Alpharetta GA 30004",
+		"latitude": 34.135376,
+		"longitude": -84.254837
+	},
+	{
+		"store_id": "115",
+		"branch_name": "Atlanta",
+		"store_type": "Branch",
+		"address": "4789 S Atlanta Rd SE Atlanta GA 30339",
+		"latitude": 33.83752,
+		"longitude": -84.475448
+	},
+	{
+		"store_id": "116",
+		"branch_name": "S. Bakersfield",
+		"store_type": "Branch",
+		"address": "4501 Ashe Rd Bakersfield CA 93313",
+		"latitude": 35.314018,
+		"longitude": -119.074989
+	},
+	{
+		"store_id": "117",
+		"branch_name": "San Luis Obispo",
+		"store_type": "Branch",
+		"address": "1175 Prospect St San Luis Obispo CA 93401",
+		"latitude": 35.234986,
+		"longitude": -120.62963
+	},
+	{
+		"store_id": "118",
+		"branch_name": "Pensacola",
+		"store_type": "Branch",
+		"address": "3611 N Palafox St Pensacola FL 32505",
+		"latitude": 30.448348,
+		"longitude": -87.230752
+	},
+	{
+		"store_id": "120",
+		"branch_name": "Centennial",
+		"store_type": "Branch",
+		"address": "15579 E Hinsdale Cir Centennial CO 80112",
+		"latitude": 39.582803,
+		"longitude": -104.808436
+	},
+	{
+		"store_id": "121",
+		"branch_name": "Pelham",
+		"store_type": "Branch",
+		"address": "1373 McCain Pkwy Pelham AL 35124",
+		"latitude": 33.274894,
+		"longitude": -86.79749
+	},
+	{
+		"store_id": "122",
+		"branch_name": "Georgetown",
+		"store_type": "Branch",
+		"address": "7100 North Intersate 35 Georgetown TX 78626",
+		"latitude": 30.647092,
+		"longitude": -97.681878
+	},
+	{
+		"store_id": "123",
+		"branch_name": "Moreno Valley",
+		"store_type": "Branch",
+		"address": "6479 Box Springs Blvd Riverside CA 92507",
+		"latitude": 33.933623,
+		"longitude": -117.294102
+	},
+	{
+		"store_id": "124",
+		"branch_name": "Santa Barbara",
+		"store_type": "Branch",
+		"address": "718 Cacique St Santa Barbara CA 93103",
+		"latitude": 34.417988,
+		"longitude": -119.677818
+	},
+	{
+		"store_id": "125",
+		"branch_name": "Santa Clarita",
+		"store_type": "Branch",
+		"address": "27726 Avenue Hopkins Valencia CA 91355",
+		"latitude": 34.432821,
+		"longitude": -118.573813
+	},
+	{
+		"store_id": "126",
+		"branch_name": "Houston",
+		"store_type": "Branch",
+		"address": "5106 Elm St Houston TX 77081",
+		"latitude": 29.713537,
+		"longitude": -95.468996
+	},
+	{
+		"store_id": "127",
+		"branch_name": "Grovetown",
+		"store_type": "Branch",
+		"address": "642 S Old Belair Rd Grovetown GA 30813",
+		"latitude": 33.481973,
+		"longitude": -82.13879
+	},
+	{
+		"store_id": "128",
+		"branch_name": "Katy",
+		"store_type": "Branch",
+		"address": "22403 Katy Frwy Katy TX 77450",
+		"latitude": 29.784358,
+		"longitude": -95.759772
+	},
+	{
+		"store_id": "129",
+		"branch_name": "Holly Springs",
+		"store_type": "Branch",
+		"address": "2262 Holly Springs Pkwy Holly Springs GA 30115",
+		"latitude": 34.179079,
+		"longitude": -84.504265
+	},
+	{
+		"store_id": "130",
+		"branch_name": "S. Tulsa (Bixby)",
+		"store_type": "Branch",
+		"address": "14655 Grant St Bixby OK 74008",
+		"latitude": 35.951286,
+		"longitude": -95.888292
+	},
+	{
+		"store_id": "131",
+		"branch_name": "Tyler",
+		"store_type": "Branch",
+		"address": "2010 Shiloh Rd Tyler TX 75703",
+		"latitude": 32.295714,
+		"longitude": -95.276819
+	},
+	{
+		"store_id": "132",
+		"branch_name": "Montgomery",
+		"store_type": "Branch",
+		"address": "5890 Monticello Dr Montgomery AL 36117",
+		"latitude": 32.364849,
+		"longitude": -86.209621
+	},
+	{
+		"store_id": "133",
+		"branch_name": "Santa Maria",
+		"store_type": "Branch",
+		"address": "841 W McCoy Ln Santa Maria CA 93455",
+		"latitude": 34.916988,
+		"longitude": -120.446918
+	},
+	{
+		"store_id": "134",
+		"branch_name": "Fort Walton Beach",
+		"store_type": "Branch",
+		"address": "632-A Lovejoy Rd. N.W. Fort Walton Beach FL 32548",
+		"latitude": 30.423675,
+		"longitude": -86.656769
+	},
+	{
+		"store_id": "135",
+		"branch_name": "Pinnacle Peak (Scottsdale)",
+		"store_type": "Branch",
+		"address": "7545 E Adobe Dr Scottsdale, Arizona AZ 85255",
+		"latitude": 33.688099,
+		"longitude": -111.917994
+	},
+	{
+		"store_id": "136",
+		"branch_name": "Tacoma",
+		"store_type": "Branch",
+		"address": "2901 South Tacoma Way Tacoma WA 98409",
+		"latitude": 47.229979,
+		"longitude": -122.473944
+	},
+	{
+		"store_id": "137",
+		"branch_name": "Prescott Valley",
+		"store_type": "Branch",
+		"address": "8267 E Pecos Dr Prescott Valley AZ 86314",
+		"latitude": 34.626505,
+		"longitude": -112.319553
+	},
+	{
+		"store_id": "138",
+		"branch_name": "Lubbock",
+		"store_type": "Branch",
+		"address": "5926 North Intersate 35 Lubbock TX 79424",
+		"latitude": 33.562334,
+		"longitude": -101.911593
+	},
+	{
+		"store_id": "139",
+		"branch_name": "Kirkland",
+		"store_type": "Branch",
+		"address": "815 North Intersate 35 Kirkland WA 98033",
+		"latitude": 47.66883,
+		"longitude": -122.192388
+	},
+	{
+		"store_id": "140",
+		"branch_name": "Tigard",
+		"store_type": "Branch",
+		"address": "10600 SW Cascade Ave Tigard, Oregon OR 97223",
+		"latitude": 45.443284,
+		"longitude": -122.780652
+	},
+	{
+		"store_id": "141",
+		"branch_name": "Vancouver",
+		"store_type": "Branch",
+		"address": "8720 NE 64th Ave Vancouver WA 98665",
+		"latitude": 45.685482,
+		"longitude": -122.606259
+	},
+	{
+		"store_id": "142",
+		"branch_name": "Clackamas",
+		"store_type": "Branch",
+		"address": "9333 SE Alansa Dr Ste 400 Clackamas OR 97015",
+		"latitude": 45.409104,
+		"longitude": -122.567619
+	},
+	{
+		"store_id": "143",
+		"branch_name": "Salem",
+		"store_type": "Branch",
+		"address": "3475 Pipe Bend Pl NE Salem OR 97301",
+		"latitude": 44.946257,
+		"longitude": -123.015476
+	},
+	{
+		"store_id": "144",
+		"branch_name": "Springfield",
+		"store_type": "Branch",
+		"address": "451 Shelley St Springfield OR 97477",
+		"latitude": 44.06351,
+		"longitude": -123.032647
+	},
+	{
+		"store_id": "145",
+		"branch_name": "Hillsboro",
+		"store_type": "Branch",
+		"address": "5857 N.E. Cornelius Pass Rd. Hillsboro OR 97124",
+		"latitude": 45.562703,
+		"longitude": -122.898453
+	},
+	{
+		"store_id": "146",
+		"branch_name": "Corpus Christi",
+		"store_type": "Branch",
+		"address": "4141 Brett St Corpus Christi, Texas TX 78411",
+		"latitude": 27.719071,
+		"longitude": -97.396402
+	},
+	{
+		"store_id": "147",
+		"branch_name": "Queen Creek",
+		"store_type": "Branch",
+		"address": "22030 S Scotland Ct Queen Creek, Arizona AZ 85142",
+		"latitude": 33.247985,
+		"longitude": -111.61328
+	},
+	{
+		"store_id": "148",
+		"branch_name": "Birmingham",
+		"store_type": "Branch",
+		"address": "5480 Vann Pl Birmingham AL 35235",
+		"latitude": 33.608175,
+		"longitude": -86.63456
+	},
+	{
+		"store_id": "149",
+		"branch_name": "Humble",
+		"store_type": "Branch",
+		"address": "615 N Houston Ave Humble TX 77338",
+		"latitude": 30.000876,
+		"longitude": -95.258254
+	},
+	{
+		"store_id": "150",
+		"branch_name": "Nashville",
+		"store_type": "Branch",
+		"address": "118 Park South Ct Nashville TN 37210",
+		"latitude": 36.1271,
+		"longitude": -86.739468
+	},
+	{
+		"store_id": "151",
+		"branch_name": "El Dorado Hills",
+		"store_type": "Branch",
+		"address": "5050 Hillsdale Cir, Ste 200 El Dorado Hills CA 95762",
+		"latitude": 38.622557,
+		"longitude": -121.062545
+	},
+	{
+		"store_id": "152",
+		"branch_name": "Buckeye",
+		"store_type": "Branch",
+		"address": "1031 N Jackrabbit Trl Buckeye AZ 85326",
+		"latitude": 33.458594,
+		"longitude": -112.478465
+	},
+	{
+		"store_id": "153",
+		"branch_name": "Medford",
+		"store_type": "Branch",
+		"address": "1575 Sky Park Dr Medford OR 97504",
+		"latitude": 42.356737,
+		"longitude": -122.863844
+	},
+	{
+		"store_id": "154",
+		"branch_name": "Grants Pass",
+		"store_type": "Branch",
+		"address": "906 S.W. 6th St. Grants Pass OR 97526",
+		"latitude": 42.433579,
+		"longitude": -123.330642
+	},
+	{
+		"store_id": "155",
+		"branch_name": "S. Medford",
+		"store_type": "Branch",
+		"address": "3622 South Pacific Hwy Medford OR 97501",
+		"latitude": 42.286724,
+		"longitude": -122.83258
+	},
+	{
+		"store_id": "156",
+		"branch_name": "College Station",
+		"store_type": "Supercenter",
+		"address": "475-A Graham Rd College Station TX 77845",
+		"latitude": 30.567279,
+		"longitude": -96.2992
+	},
+	{
+		"store_id": "157",
+		"branch_name": "Murfreesboro",
+		"store_type": "Branch",
+		"address": "190 Chaffin Pl Murfreesboro TN 37129",
+		"latitude": 35.843089,
+		"longitude": -86.429332
+	},
+	{
+		"store_id": "158",
+		"branch_name": "Redding",
+		"store_type": "Branch",
+		"address": "3015 Crossroads Dr Redding CA 96003",
+		"latitude": 40.563689,
+		"longitude": -122.297271
+	},
+	{
+		"store_id": "159",
+		"branch_name": "Suwanee",
+		"store_type": "Branch",
+		"address": "4167 Suwanee Dam Rd Suwanee GA 30024",
+		"latitude": 34.058141,
+		"longitude": -84.066055
+	},
+	{
+		"store_id": "160",
+		"branch_name": "Jacksonville South",
+		"store_type": "Branch",
+		"address": "11590 South Creek Court Jacksonville FL 32256",
+		"latitude": 30.076205,
+		"longitude": -81.617793
+	},
+	{
+		"store_id": "161",
+		"branch_name": "San Marcos, TX",
+		"store_type": "Branch",
+		"address": "118 Hays St Suite 101 San Marcos TX 78666",
+		"latitude": 29.865396,
+		"longitude": -97.939
+	},
+	{
+		"store_id": "162",
+		"branch_name": "Cedar Park",
+		"store_type": "Branch",
+		"address": "1400 Cottonwood Creek Trl Cedar Park TX 78613",
+		"latitude": 30.534228,
+		"longitude": -97.80753
+	},
+	{
+		"store_id": "163",
+		"branch_name": "Lakeway",
+		"store_type": "Branch",
+		"address": "4419 Hudson Bend Rd Austin TX 78734",
+		"latitude": 30.4052,
+		"longitude": -97.926763
+	},
+	{
+		"store_id": "164",
+		"branch_name": "Auburn",
+		"store_type": "Branch",
+		"address": "1805 Pike St. N.W. Auburn WA 98001",
+		"latitude": 47.325139,
+		"longitude": -122.25253
+	},
+	{
+		"store_id": "165",
+		"branch_name": "Shreveport",
+		"store_type": "Branch",
+		"address": "234 Lynbrook Blvd Shreveport LA 71106",
+		"latitude": 32.422761,
+		"longitude": -93.759918
+	},
+	{
+		"store_id": "166",
+		"branch_name": "Campbell",
+		"store_type": "Branch",
+		"address": "866 S McGlincy Ln Campbell CA 95008",
+		"latitude": 37.274706,
+		"longitude": -121.944378
+	},
+	{
+		"store_id": "167",
+		"branch_name": "Indian Trail",
+		"store_type": "Branch",
+		"address": "211 Post Office Drive Indian Trail NC 28079",
+		"latitude": 35.079624,
+		"longitude": -80.660144
+	},
+	{
+		"store_id": "168",
+		"branch_name": "McKinney",
+		"store_type": "Branch",
+		"address": "1404 N McDonald Street, Suite B McKinney TX 75071",
+		"latitude": 33.213486,
+		"longitude": -96.612486
+	},
+	{
+		"store_id": "169",
+		"branch_name": "Roseville",
+		"store_type": "Branch",
+		"address": "500 Berry St, Unit B Roseville CA 95678",
+		"latitude": 38.759092,
+		"longitude": -121.2706
+	},
+	{
+		"store_id": "171",
+		"branch_name": "Von Ormy",
+		"store_type": "Supercenter",
+		"address": "17141 Benton City Rd Von Ormy TX 78073",
+		"latitude": 29.253824,
+		"longitude": -98.665778
+	},
+	{
+		"store_id": "172",
+		"branch_name": "Lewisville",
+		"store_type": "Branch",
+		"address": "1810 Midway Rd Lewisville TX 75056",
+		"latitude": 33.046377,
+		"longitude": -96.941145
+	},
+	{
+		"store_id": "173",
+		"branch_name": "Brownsville",
+		"store_type": "Branch",
+		"address": "5180 N Expressway Brownsville TX 78526",
+		"latitude": 25.980463,
+		"longitude": -97.517996
+	},
+	{
+		"store_id": "174",
+		"branch_name": "Burlington",
+		"store_type": "Branch",
+		"address": "555 E George Hopper Rd Burlington WA 98233",
+		"latitude": 48.452985,
+		"longitude": -122.328523
+	},
+	{
+		"store_id": "175",
+		"branch_name": "Bentonville",
+		"store_type": "Branch",
+		"address": "1209 S.E. Phyllis St. Bentonville AR 72712",
+		"latitude": 36.357856,
+		"longitude": -94.179576
+	},
+	{
+		"store_id": "176",
+		"branch_name": "Seattle",
+		"store_type": "Branch",
+		"address": "751 South Michigan Street Seattle WA 98108",
+		"latitude": 47.546775,
+		"longitude": -122.323378
+	},
+	{
+		"store_id": "179",
+		"branch_name": "Panama City Beach",
+		"store_type": "Branch+",
+		"address": "100 Estes Pl Panama City Beach FL 32413",
+		"latitude": 30.241296,
+		"longitude": -85.906795
+	},
+	{
+		"store_id": "180",
+		"branch_name": "Hockley",
+		"store_type": "Supercenter",
+		"address": "34150 Highway 290 Hockley TX 77447",
+		"latitude": 30.021558,
+		"longitude": -95.826465
+	},
+	{
+		"store_id": "181",
+		"branch_name": "Pasco",
+		"store_type": "Branch",
+		"address": "1625 E James St Pasco WA 99301",
+		"latitude": 46.249104,
+		"longitude": -119.081332
+	},
+	{
+		"store_id": "182",
+		"branch_name": "Garden Grove",
+		"store_type": "Branch",
+		"address": "11601 Seaboard Cir Stanton CA 90680",
+		"latitude": 33.79406,
+		"longitude": -118.00072
+	},
+	{
+		"store_id": "183",
+		"branch_name": "Columbia, SC",
+		"store_type": "Branch+",
+		"address": "101 Sunbelt Blvd Columbia, South Carolina SC 29203",
+		"latitude": 34.068064,
+		"longitude": -81.042607
+	},
+	{
+		"store_id": "184",
+		"branch_name": "Huntsville",
+		"store_type": "Branch",
+		"address": "2703 University Dr. N.W. Huntsville AL 35816",
+		"latitude": 34.736379,
+		"longitude": -86.6075
+	},
+	{
+		"store_id": "185",
+		"branch_name": "Cordova",
+		"store_type": "Branch",
+		"address": "9526 Cordova Park Rd Cordova TN 38018",
+		"latitude": 35.160245,
+		"longitude": -89.744817
+	},
+	{
+		"store_id": "186",
+		"branch_name": "Covington",
+		"store_type": "Branch",
+		"address": "12135 Liberty Dr. N.E. Covington GA 30014",
+		"latitude": 33.614489,
+		"longitude": -83.828692
+	},
+	{
+		"store_id": "187",
+		"branch_name": "Carson City",
+		"store_type": "Branch",
+		"address": "2310 S Curry St Carson City NV 89703",
+		"latitude": 39.146469,
+		"longitude": -119.770948
+	},
+	{
+		"store_id": "188",
+		"branch_name": "Surprise",
+		"store_type": "Branch",
+		"address": "17194 N Dysart Rd Surprise AZ 85378",
+		"latitude": 33.640757,
+		"longitude": -112.342672
+	},
+	{
+		"store_id": "189",
+		"branch_name": "Sanford",
+		"store_type": "Branch",
+		"address": "300 Hickman Dr Sanford FL 32771",
+		"latitude": 28.819286,
+		"longitude": -81.330223
+	},
+	{
+		"store_id": "190",
+		"branch_name": "Kissimmee",
+		"store_type": "Branch",
+		"address": "1045 Garden St Kissimmee FL 34744",
+		"latitude": 28.335985,
+		"longitude": -81.394507
+	},
+	{
+		"store_id": "191",
+		"branch_name": "Tulare",
+		"store_type": "Branch",
+		"address": "2321 S K St Tulare CA 93274",
+		"latitude": 36.185487,
+		"longitude": -119.341558
+	},
+	{
+		"store_id": "193",
+		"branch_name": "Colorado Springs",
+		"store_type": "Branch",
+		"address": "2705 Capital Dr Colorado Springs CO 80939",
+		"latitude": 38.870961,
+		"longitude": -104.675144
+	},
+	{
+		"store_id": "194",
+		"branch_name": "Everett",
+		"store_type": "Branch",
+		"address": "3732 Smith Ave Everett WA 98201",
+		"latitude": 47.967774,
+		"longitude": -122.197254
+	},
+	{
+		"store_id": "195",
+		"branch_name": "Pineville",
+		"store_type": "Branch+",
+		"address": "325 Westinghouse Blvd Charlotte NC 28273",
+		"latitude": 35.112246,
+		"longitude": -80.919473
+	},
+	{
+		"store_id": "196",
+		"branch_name": "N. Charlotte",
+		"store_type": "Branch",
+		"address": "6829 Statesville Rd Charlotte NC 28269",
+		"latitude": 35.314515,
+		"longitude": -80.840858
+	},
+	{
+		"store_id": "197",
+		"branch_name": "N. Charleston",
+		"store_type": "Branch",
+		"address": "7281 Pepperdam Ave Charleston SC 29418",
+		"latitude": 32.924622,
+		"longitude": -80.065014
+	},
+	{
+		"store_id": "198",
+		"branch_name": "Orlando",
+		"store_type": "Branch",
+		"address": "3333 Old Winter Garden Rd Orlando FL 32805",
+		"latitude": 28.547709,
+		"longitude": -81.418766
+	},
+	{
+		"store_id": "199",
+		"branch_name": "Greenville",
+		"store_type": "Branch",
+		"address": "20 Concourse Way Greer SC 29650",
+		"latitude": 34.876371,
+		"longitude": -82.228318
+	},
+	{
+		"store_id": "200",
+		"branch_name": "Las Vegas",
+		"store_type": "Branch",
+		"address": "3521 N Rancho Dr Las Vegas NV 89130",
+		"latitude": 36.222801,
+		"longitude": -115.218313
+	},
+	{
+		"store_id": "201",
+		"branch_name": "Fort Myers",
+		"store_type": "Branch",
+		"address": "8091 Supply Dr Fort Myers FL 33912",
+		"latitude": 26.495543,
+		"longitude": -81.820444
+	},
+	{
+		"store_id": "202",
+		"branch_name": "Lutz",
+		"store_type": "Branch",
+		"address": "26530 Wesley Chapel Blvd Lutz FL 33559",
+		"latitude": 28.226341,
+		"longitude": -82.376929
+	},
+	{
+		"store_id": "203",
+		"branch_name": "San Juan Capistrano",
+		"store_type": "Branch",
+		"address": "26031 Avenida Aeropuerto San Juan Capistrano CA 92675",
+		"latitude": 33.482079,
+		"longitude": -117.676141
+	},
+	{
+		"store_id": "204",
+		"branch_name": "Inglewood",
+		"store_type": "Branch",
+		"address": "400 S Hindry Ave Inglewood CA 90301",
+		"latitude": 33.958199,
+		"longitude": -118.373123
+	},
+	{
+		"store_id": "205",
+		"branch_name": "Naples",
+		"store_type": "Branch",
+		"address": "4306 Progress Ave Naples FL 34104",
+		"latitude": 26.16364,
+		"longitude": -81.756501
+	},
+	{
+		"store_id": "207",
+		"branch_name": "Saint Petersburg",
+		"store_type": "Branch",
+		"address": "3199 46th Avenue Saint Petersburg FL 33714",
+		"latitude": 27.814403,
+		"longitude": -82.67616
+	},
+	{
+		"store_id": "208",
+		"branch_name": "Castle Hayne",
+		"store_type": "Branch",
+		"address": "4805 Las Tortugas Drive Castle Hayne NC 28429",
+		"latitude": 34.348053,
+		"longitude": -77.879574
+	},
+	{
+		"store_id": "209",
+		"branch_name": "Lady Lake",
+		"store_type": "Branch",
+		"address": "2809 Sunrise Rd Lady Lake FL 32159",
+		"latitude": 28.891828,
+		"longitude": -81.906795
+	},
+	{
+		"store_id": "210",
+		"branch_name": "Elgin",
+		"store_type": "Branch",
+		"address": "318 Arrowhead Drive Gilbert Islands IL 60136",
+		"latitude": 42.098971,
+		"longitude": -88.36348
+	},
+	{
+		"store_id": "211",
+		"branch_name": "West Chicago",
+		"store_type": "Branch",
+		"address": "1130 Carolina Dr, Ste F West Chicago IL 60185",
+		"latitude": 41.904044,
+		"longitude": -88.221846
+	},
+	{
+		"store_id": "212",
+		"branch_name": "Crown Point",
+		"store_type": "Branch",
+		"address": "515 E 110th Crown Point IN 46307",
+		"latitude": 41.417692,
+		"longitude": -87.32837
+	},
+	{
+		"store_id": "213",
+		"branch_name": "Livonia",
+		"store_type": "Branch",
+		"address": "34360 Glendale St Livonia MI 48150",
+		"latitude": 42.377242,
+		"longitude": -83.381806
+	},
+	{
+		"store_id": "214",
+		"branch_name": "Sterling Heights",
+		"store_type": "Branch",
+		"address": "6626 Sims Dr Sterling Heights MI 48313",
+		"latitude": 42.58857,
+		"longitude": -83.043297
+	},
+	{
+		"store_id": "216",
+		"branch_name": "Grand Rapids",
+		"store_type": "Branch",
+		"address": "2830 Locke Ave SW Grandville Grandville MI 49418",
+		"latitude": 42.912928,
+		"longitude": -85.750222
+	},
+	{
+		"store_id": "217",
+		"branch_name": "Westfield",
+		"store_type": "Branch",
+		"address": "16938 Westfield Park Road Westfield IN 46074",
+		"latitude": 40.033452,
+		"longitude": -86.139797
+	},
+	{
+		"store_id": "218",
+		"branch_name": "Brighton, MI",
+		"store_type": "Yard",
+		"address": "12901 Silver Lake Rd Brighton MI 48116",
+		"latitude": 42.49537,
+		"longitude": -83.691553
+	},
+	{
+		"store_id": "219",
+		"branch_name": "Mokena",
+		"store_type": "Branch",
+		"address": "9610 194th St Mokena IL 60448",
+		"latitude": 41.537999,
+		"longitude": -87.851883
+	},
+	{
+		"store_id": "220",
+		"branch_name": "Gaithersburg",
+		"store_type": "Branch",
+		"address": "7904 Queenair Drive Gaithersburg MD 20879",
+		"latitude": 39.169412,
+		"longitude": -77.161747
+	},
+	{
+		"store_id": "221",
+		"branch_name": "West Berlin",
+		"store_type": "Branch",
+		"address": "412 Bloomfield Drive West Berlin,NJ 8091",
+		"latitude": 39.813174,
+		"longitude": -74.925718
+	},
+	{
+		"store_id": "222",
+		"branch_name": "Tinton Falls",
+		"store_type": "Branch",
+		"address": "100 Park Road, Suite 2 Tinton Falls,NJ 7724",
+		"latitude": 40.288323,
+		"longitude": -74.087137
+	},
+	{
+		"store_id": "223",
+		"branch_name": "Ronkonkoma",
+		"store_type": "Branch",
+		"address": "855 Marconi Ave Ronkonkoma NY 11779",
+		"latitude": 40.796695,
+		"longitude": -73.116387
+	},
+	{
+		"store_id": "224",
+		"branch_name": "Franklin Lakes",
+		"store_type": "Branch",
+		"address": "779 Susquehanna Ave Franklin Lakes,NJ 7417",
+		"latitude": 41.024225,
+		"longitude": -74.20424
+	},
+	{
+		"store_id": "225",
+		"branch_name": "Hastings-on-Hudson",
+		"store_type": "Branch",
+		"address": "70 Saw Mill River Rd. Hastings-on-Hudson NY 10706",
+		"latitude": 40.9831,
+		"longitude": -73.864767
+	},
+	{
+		"store_id": "226",
+		"branch_name": "Sterling",
+		"store_type": "Branch",
+		"address": "44190 Mercure Cir Sterling VA 20166",
+		"latitude": 38.987066,
+		"longitude": -77.479669
+	},
+	{
+		"store_id": "227",
+		"branch_name": "Elkridge",
+		"store_type": "Branch",
+		"address": "6363 S Hanover Road Elkridge MD 21075",
+		"latitude": 39.195828,
+		"longitude": -76.729504
+	},
+	{
+		"store_id": "228",
+		"branch_name": "Richmond",
+		"store_type": "Supercenter",
+		"address": "20A Westover Hills Blvd Richmond VA 23225",
+		"latitude": 37.51063,
+		"longitude": -77.488683
+	},
+	{
+		"store_id": "229",
+		"branch_name": "Lancaster",
+		"store_type": "Supercenter",
+		"address": "5550 Genesee St Lancaster NY 14086",
+		"latitude": 42.946267,
+		"longitude": -78.662039
+	},
+	{
+		"store_id": "230",
+		"branch_name": "Indio",
+		"store_type": "Branch+",
+		"address": "81735 Oleander Ave Indio CA 92201",
+		"latitude": 33.734162,
+		"longitude": -116.239083
+	},
+	{
+		"store_id": "231",
+		"branch_name": "Knoxville",
+		"store_type": "Branch",
+		"address": "2420 Webster Ave Knoxville TN 37921",
+		"latitude": 35.962762,
+		"longitude": -83.949859
+	},
+	{
+		"store_id": "232",
+		"branch_name": "Hermitage",
+		"store_type": "Supercenter",
+		"address": "3532 Central Pike Hermitage TN 37076",
+		"latitude": 36.182657,
+		"longitude": -86.630853
+	},
+	{
+		"store_id": "233",
+		"branch_name": "North Jacksonville",
+		"store_type": "Supercenter",
+		"address": "11015 Blasius Rd Jacksonville FL 32226",
+		"latitude": 30.428773,
+		"longitude": -81.568004
+	},
+	{
+		"store_id": "234",
+		"branch_name": "West Jordan",
+		"store_type": "Branch",
+		"address": "9757 S Prosperity Rd West Jordan UT 84081",
+		"latitude": 40.574043,
+		"longitude": -112.03988
+	},
+	{
+		"store_id": "235",
+		"branch_name": "Norfolk",
+		"store_type": "Branch",
+		"address": "820 Poplar Hall Norfolk VA 23502",
+		"latitude": 36.852736,
+		"longitude": -76.196709
+	},
+	{
+		"store_id": "236",
+		"branch_name": "West Jacksonville",
+		"store_type": "Branch",
+		"address": "538 Chatham Street Jacksonville FL 32254",
+		"latitude": 30.31674,
+		"longitude": -81.750085
+	},
+	{
+		"store_id": "237",
+		"branch_name": "Justin",
+		"store_type": "Supercenter",
+		"address": "15476 SH-114 W Justin TX 76247",
+		"latitude": 33.03745,
+		"longitude": -97.384357
+	},
+	{
+		"store_id": "238",
+		"branch_name": "Windsor",
+		"store_type": "Branch+",
+		"address": "930 Shiloh Road, Building 15 Windsor CA 95492",
+		"latitude": 38.523689,
+		"longitude": -122.793508
+	},
+	{
+		"store_id": "239",
+		"branch_name": "Plain City",
+		"store_type": "Branch",
+		"address": "8130 Corporate Blvd Plain City OH 43064",
+		"latitude": 40.130411,
+		"longitude": -83.200691
+	},
+	{
+		"store_id": "240",
+		"branch_name": "Whitesboro",
+		"store_type": "Supercenter",
+		"address": "12881 US-82E Whitesboro TX 76273",
+		"latitude": 33.656218,
+		"longitude": -96.906948
+	},
+	{
+		"store_id": "241",
+		"branch_name": "Ball Ground",
+		"store_type": "Supercenter",
+		"address": "5311 Ball Ground Highway Ball Ground GA 30107",
+		"latitude": 34.29413,
+		"longitude": -84.419409
+	},
+	{
+		"store_id": "242",
+		"branch_name": "Krugerville",
+		"store_type": "Supercenter",
+		"address": "1005 Prosperity Way Krugerville TX 76227",
+		"latitude": 33.264901,
+		"longitude": -96.981855
+	},
+	{
+		"store_id": "243",
+		"branch_name": "Colorado Springs West",
+		"store_type": "Supercenter",
+		"address": "5000 Northpark Drive Colorado Springs CO 80918",
+		"latitude": 38.904989,
+		"longitude": -104.825784
+	},
+	{
+		"store_id": "301",
+		"branch_name": "Pinnacle Peak (Phoenix)",
+		"store_type": "Yard",
+		"address": "200 E Pinnacle Peak Road Phoenix AZ 85024",
+		"latitude": 33.692602,
+		"longitude": -111.998235
+	},
+	{
+		"store_id": "302",
+		"branch_name": "LIttleton",
+		"store_type": "Yard",
+		"address": "6601 S Santa Fe Dr Littleton CO 80120",
+		"latitude": 39.596421,
+		"longitude": -105.02305
+	},
+	{
+		"store_id": "303",
+		"branch_name": "Brighton, CO",
+		"store_type": "Yard",
+		"address": "15980 Elmira St Brighton, 80602",
+		"latitude": 39.986209,
+		"longitude": -104.87123
+	},
+	{
+		"store_id": "304",
+		"branch_name": "Elizabeth",
+		"store_type": "Yard",
+		"address": "35049 County Rd 13 Elizabeth, 80107",
+		"latitude": 39.380584,
+		"longitude": -104.607412
+	},
+	{
+		"store_id": "305",
+		"branch_name": "El Mirage",
+		"store_type": "Yard",
+		"address": "7243 N El Mirage Rd El Mirage, Arizona AZ 85307",
+		"latitude": 33.541115,
+		"longitude": -112.323685
+	},
+	{
+		"store_id": "306",
+		"branch_name": "Guadalupe",
+		"store_type": "Yard",
+		"address": "9031 S. I-10 Guadalupe, Arizona AZ 85283",
+		"latitude": 33.366073,
+		"longitude": -111.967713
+	},
+	{
+		"store_id": "309",
+		"branch_name": "HS Queen Creek",
+		"store_type": "Yard",
+		"address": "21555 East Ocotillo Rd Queen Creek, Arizona AZ 85142",
+		"latitude": 33.248037,
+		"longitude": -111.616594
+	},
+	{
+		"store_id": "310",
+		"branch_name": "Morristown",
+		"store_type": "Distribution Center",
+		"address": "46981 N Castle Hotsprings Rd Morristown AZ 85342",
+		"latitude": 33.876336,
+		"longitude": -112.599579
+	},
+	{
+		"store_id": "311",
+		"branch_name": "Broomfield",
+		"store_type": "Yard",
+		"address": "11605 Wadsworth Blvd Broomfield CO 80020",
+		"latitude": 39.907828,
+		"longitude": -105.08168
+	},
+	{
+		"store_id": "312",
+		"branch_name": "Englewood",
+		"store_type": "Yard",
+		"address": "2600 W Oxford Ave Englewood CO 80110",
+		"latitude": 39.64196,
+		"longitude": -105.019125
+	},
+	{
+		"store_id": "313",
+		"branch_name": "Fort Lupton",
+		"store_type": "Yard",
+		"address": "8394 US Highway 85 Fort Lupton CO 80621",
+		"latitude": 40.122616,
+		"longitude": -104.809346
+	},
+	{
+		"store_id": "314",
+		"branch_name": "S. Fort Collins",
+		"store_type": "Yard",
+		"address": "3501 E Prospect Rd Fort Collins CO 80525",
+		"latitude": 40.566389,
+		"longitude": -105.012571
+	},
+	{
+		"store_id": "315",
+		"branch_name": "New Braunfels",
+		"store_type": "Yard+",
+		"address": "8206 North Interstate Highway 35 New Braunfels TX 78130",
+		"latitude": 29.784878,
+		"longitude": -98.02962
+	},
+	{
+		"store_id": "316",
+		"branch_name": "Wimberly",
+		"store_type": "Yard+",
+		"address": "1126B Farm to Market 32 San Marcos TX 78666",
+		"latitude": 29.940086,
+		"longitude": -98.107961
+	},
+	{
+		"store_id": "317",
+		"branch_name": "Round Mountain",
+		"store_type": "Supercenter",
+		"address": "11392 US Hwy 281 North Bldg A Round Mountain TX 78663",
+		"latitude": 30.436571,
+		"longitude": -98.339805
+	},
+	{
+		"store_id": "318",
+		"branch_name": "Surprise Yard",
+		"store_type": "Yard",
+		"address": "13460 W Westgate Dr Surprise AZ 85378",
+		"latitude": 33.641395,
+		"longitude": -112.349657
+	},
+	{
+		"store_id": "319",
+		"branch_name": "Liberty Hill",
+		"store_type": "Supercenter",
+		"address": "91 Private Road 905 Liberty Hill TX 78642",
+		"latitude": 30.754629,
+		"longitude": -97.880241
+	},
+	{
+		"store_id": "320",
+		"branch_name": "Goodyear",
+		"store_type": "Yard",
+		"address": "18421 W McDowell Rd Goodyear AZ 85395",
+		"latitude": 33.463988,
+		"longitude": -112.45634
+	},
+	{
+		"store_id": "321",
+		"branch_name": "Lowell",
+		"store_type": "Yard",
+		"address": "808 N Oldridge Place AR 72745",
+		"latitude": 36.266742,
+		"longitude": -94.151204
+	},
+	{
+		"store_id": "322",
+		"branch_name": "Prescott Valley",
+		"store_type": "Yard",
+		"address": "8200 E Long Mesa Dr Prescott Valley AZ 86314",
+		"latitude": 34.625836,
+		"longitude": -112.320887
+	},
+	{
+		"store_id": "323",
+		"branch_name": "Rock Hill",
+		"store_type": "Yard",
+		"address": "1253 Anderson Rd Rock Hill SC 29730",
+		"latitude": 34.91245,
+		"longitude": -80.972335
+	},
+	{
+		"store_id": "324",
+		"branch_name": "Bastrop",
+		"store_type": "Yard",
+		"address": "1067 W Hwy 71 Unit B Bastrop TX 78602",
+		"latitude": 30.109157,
+		"longitude": -97.400015
+	},
+	{
+		"store_id": "400",
+		"branch_name": "S. Phoenix (Tolleson)",
+		"store_type": "Distribution Center",
+		"address": "5302 West Buchanan Ave Phoenix AZ 85043",
+		"latitude": 33.443516,
+		"longitude": -112.173381
+	},
+	{
+		"store_id": "403",
+		"branch_name": "Johnstown",
+		"store_type": "Distribution Center",
+		"address": "7458 County Rd 42 Johnstown CO 80534",
+		"latitude": 40.289389,
+		"longitude": -104.916129
+	},
+	{
+		"store_id": "404",
+		"branch_name": "Dallas",
+		"store_type": "Distribution Center",
+		"address": "2223 Lombardy Lane Dallas TX 75220",
+		"latitude": 32.867294,
+		"longitude": -96.905234
+	},
+	{
+		"store_id": "492",
+		"branch_name": "S. Bend (Bend)",
+		"store_type": "Branch",
+		"address": "1013 SE Paiute Way Bend OR 97702",
+		"latitude": 44.039728,
+		"longitude": -121.293324
+	}
+]

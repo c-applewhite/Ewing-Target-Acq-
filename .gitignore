@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python-generated files
+__pycache__/
+*.pyc
+*.pyo
+
+# Test-generated files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Visual Studio-generated files
+.vs/
+*.suo
+*.user
+
+# Application-generated files
+data/*.db
+logs/*.log
+# Database backups
+data/*.bak*
+*.bak

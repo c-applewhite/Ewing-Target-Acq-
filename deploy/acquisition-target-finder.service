@@ -1,0 +1,15 @@
+[Unit]
+Description=Acquisition Target Finder Flask App
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/acquisition_target_finder
+ExecStart=/opt/abacus-python/bin/python3 app.py
+Restart=on-failure
+RestartSec=3
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

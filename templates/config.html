@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Configuration &middot; Acquisition Target Finder{% endblock %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h3 class="mb-0">Configuration</h3>
+  <button id="save-config" class="btn btn-primary btn-sm">Save Configuration</button>
+</div>
+<div id="config-alert" class="alert d-none"></div>
+
+<div class="row g-3">
+  <div class="col-lg-6">
+    <div class="card mb-3"><div class="card-body">
+      <h6 class="card-title">Market</h6>
+      <div class="row g-2">
+        <div class="col-8"><label class="form-label small">Name</label>
+          <input id="m-name" class="form-control form-control-sm"></div>
+        <div class="col-4"><label class="form-label small">State</label>
+          <input id="m-state" class="form-control form-control-sm"></div>
+        <div class="col-6"><label class="form-label small">Primary radius (mi)</label>
+          <input id="m-primary" type="number" class="form-control form-control-sm"></div>
+        <div class="col-6"><label class="form-label small">Max radius (mi)</label>
+          <input id="m-max" type="number" class="form-control form-control-sm"></div>
+      </div>
+      <hr>
+      <div class="d-flex justify-content-between">
+        <label class="form-label small fw-semibold">Search Locations</label>
+        <button id="add-location" class="btn btn-outline-primary btn-sm py-0">+ Add</button>
+      </div>
+      <div id="locations-list"></div>
+    </div></div>
+
+    <div class="card"><div class="card-body">
+      <div class="d-flex justify-content-between">
+        <h6 class="card-title">Search Terms</h6>
+        <button id="add-term" class="btn btn-outline-primary btn-sm py-0">+ Add</button>
+      </div>
+      <div id="terms-config"></div>
+    </div></div>
+  </div>
+
+  <div class="col-lg-6">
+    <div class="card mb-3"><div class="card-body">
+      <h6 class="card-title">Scoring Weights <span id="weight-sum" class="badge bg-secondary">0</span></h6>
+      <div id="weights-list"></div>
+      <div class="form-text">Weights must sum to 100.</div>
+    </div></div>
+
+    <div class="card mb-3"><div class="card-body">
+      <h6 class="card-title">Score Bands</h6>
+      <div id="bands-list"></div>
+    </div></div>
+
+    <div class="card mb-3"><div class="card-body">
+      <h6 class="card-title">Positive Keywords</h6>
+      <textarea id="positive-keywords" class="form-control form-control-sm" rows="4"></textarea>
+      <div class="form-text">One keyword per line.</div>
+    </div></div>
+
+    <div class="card"><div class="card-body">
+      <h6 class="card-title">Exclusion Keywords</h6>
+      <textarea id="exclusion-keywords" class="form-control form-control-sm" rows="4"></textarea>
+      <div class="form-text">One keyword per line.</div>
+    </div></div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}<script>initConfig();</script>{% endblock %}

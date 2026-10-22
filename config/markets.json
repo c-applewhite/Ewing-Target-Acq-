@@ -1,0 +1,11 @@
+{
+  "default_radius_miles": 10,
+  "allowed_radius_miles": [
+    10,
+    25,
+    50,
+    75
+  ],
+  "maximum_radius_miles": 75,
+  "google_search_circle_meters": 48000
+}

@@ -1,0 +1,233 @@
+{% extends "base.html" %}
+
+{% block title %}
+Search Runs &middot; Acquisition Target Finder
+{% endblock %}
+
+{% block content %}
+
+<h3 class="mb-3">Search Runs</h3>
+
+<div class="row g-3">
+
+    <div class="col-lg-5">
+
+        <div class="card">
+            <div class="card-body">
+
+                <h6 class="card-title">
+                    Start a New Run
+                </h6>
+
+                <div class="mb-2">
+                    <label class="form-label small fw-semibold"
+                           for="search-by">
+                        Search By
+                    </label>
+
+                    <select id="search-by"
+                            class="form-select form-select-sm">
+                        <option value="branch" selected>
+                            Ewing Branch
+                        </option>
+
+                        <option value="zip">
+                            ZIP Code
+                        </option>
+                    </select>
+                </div>
+
+                <div id="branch-field">
+
+                    <div class="mb-2">
+                        <label class="form-label small fw-semibold"
+                               for="store-search">
+                            Find Ewing Location
+                        </label>
+
+                        <input id="store-search"
+                               type="search"
+                               class="form-control form-control-sm"
+                               placeholder="Search by store ID, name, type, or address"
+                               autocomplete="off">
+
+                        <div id="store-search-help"
+                             class="form-text">
+                            Examples: 12, Phoenix, Distribution Center, Arizona
+                        </div>
+                    </div>
+
+                    <div class="mb-2">
+                        <label class="form-label small fw-semibold"
+                               for="store-select">
+                            Ewing Location
+                        </label>
+
+                        <select id="store-select"
+                                class="form-select form-select-sm"></select>
+
+                        <div id="store-search-count"
+                             class="form-text"></div>
+                    </div>
+
+                </div>
+
+                <div id="zip-field" class="d-none">
+
+                    <div class="mb-2">
+                        <label class="form-label small fw-semibold"
+                               for="zip-input">
+                            US ZIP Code
+                        </label>
+
+                        <input id="zip-input"
+                               type="text"
+                               inputmode="numeric"
+                               maxlength="5"
+                               class="form-control form-control-sm"
+                               placeholder="e.g. 85212"
+                               autocomplete="off">
+
+                        <div id="zip-input-help"
+                             class="form-text">
+                            Enter a 5-digit US ZIP code to search around.
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mb-2">
+                    <label class="form-label small fw-semibold"
+                           for="radius-select">
+                        Search Radius
+                    </label>
+
+                    <select id="radius-select"
+                            class="form-select form-select-sm">
+                        <option value="10">
+                            10 miles
+                        </option>
+
+                        <option value="25" selected>
+                            25 miles
+                        </option>
+
+                        <option value="50">
+                            50 miles
+                        </option>
+
+                        <option value="75">
+                            75 miles
+                        </option>
+                    </select>
+                </div>
+
+                <div class="mb-2">
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <label class="form-label small fw-semibold mb-0">
+                            Search Terms
+                        </label>
+
+                        <a href="#"
+                           id="select-all-terms"
+                           class="small">
+                            Select / deselect all
+                        </a>
+                    </div>
+
+                    <div id="terms-list"
+                         class="border rounded p-2 mt-2"
+                         style="max-height:240px;overflow:auto;"></div>
+
+                </div>
+
+                <div id="dup-warning"
+                     class="alert alert-warning py-2 small d-none"></div>
+
+                <button id="start-run"
+                        type="button"
+                        class="btn btn-primary btn-sm">
+                    Find Acquisition Targets
+                </button>
+
+            </div>
+        </div>
+
+        <div class="card mt-3 d-none"
+             id="progress-card">
+            <div class="card-body">
+
+                <h6 class="card-title">
+                    Run Progress
+                </h6>
+
+                <div class="progress mb-2"
+                     style="height:22px;">
+                    <div id="progress-bar"
+                         class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar"
+                         style="width:0%"
+                         aria-valuemin="0"
+                         aria-valuemax="100">
+                        0%
+                    </div>
+                </div>
+
+                <div id="run-status"
+                     class="small text-muted mb-2"></div>
+
+                <pre id="run-log"
+                     class="run-log"></pre>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-lg-7">
+
+        <div class="card">
+            <div class="card-body">
+
+                <h6 class="card-title">
+                    Run History
+                </h6>
+
+                <div class="table-responsive">
+
+                    <table class="table table-sm table-hover align-middle">
+
+                        <thead>
+                            <tr>
+                                <th>Ewing Branch</th>
+                                <th>Radius</th>
+                                <th>Terms</th>
+                                <th>Status</th>
+                                <th>Started</th>
+                                <th>Completed</th>
+                                <th>Raw Records</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="runs-history"></tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+    initSearchRuns();
+</script>
+{% endblock %}

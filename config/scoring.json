@@ -1,0 +1,73 @@
+{
+  "exclusion_keywords": [
+    "landscaping service",
+    "lawn care",
+    "landscape contractor",
+    "landscape design",
+    "mowing",
+    "irrigation installation",
+    "tree service",
+    "concrete contractor",
+    "quarry only",
+    "nursery only",
+    "garden center only"
+  ],
+  "national_chains": [
+    "home depot",
+    "lowe's",
+    "lowes",
+    "menards",
+    "ace hardware",
+    "true value",
+    "walmart",
+    "tractor supply",
+    "sherwin-williams",
+    "site one",
+    "siteone",
+    "ewing",
+    "ewing outdoor",
+    "ewing irrigation"
+  ],
+  "positive_keywords": [],
+  "score_bands": [
+    {
+      "min": 80,
+      "max": 100,
+      "label": "Priority Target",
+      "color": "#1a7f37"
+    },
+    {
+      "min": 65,
+      "max": 79,
+      "label": "Strong Candidate",
+      "color": "#0969da"
+    },
+    {
+      "min": 50,
+      "max": 64,
+      "label": "Monitor / Investigate",
+      "color": "#bf8700"
+    },
+    {
+      "min": 0,
+      "max": 49,
+      "label": "Low Priority",
+      "color": "#6e7781"
+    }
+  ],
+  "search_terms": [
+    "landscape supply",
+    "hardscape supply",
+    "rock and stone supplier",
+    "sand and gravel supplier",
+    "soil and mulch supplier",
+    "paver supplier",
+    "masonry supply"
+  ],
+  "weights": {
+    "business_quality": 20,
+    "data_confidence": 15,
+    "geographic_fit": 25,
+    "product_fit": 40
+  }
+}
