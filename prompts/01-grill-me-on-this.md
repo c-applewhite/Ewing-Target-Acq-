@@ -13,4 +13,6 @@ A few things that are already true, so don't ask me to re-decide them:
 
 Push on the things I probably haven't thought about: what the exact input looks like, what happens when data is missing or malformed, how this should appear to a non-technical executive, which existing behavior it must not disturb, and how we'll know it worked.
 
+For product features, ask how the change helps identify, evaluate, prioritize, review, or shortlist acquisition targets and which acquisition decision it supports. Treat market metrics as supporting evidence, not a standalone primary objective; greenfield expansion is secondary. Do not require technical maintenance tasks to demonstrate direct product value.
+
 When you think we've covered everything, tell me so, and then use ewing-prd (or just write it yourself) to turn the conversation into an update to docs/PRD.md — adding to Next scope and Open questions, not rewriting the baseline.

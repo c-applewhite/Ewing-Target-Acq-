@@ -26,6 +26,10 @@ jobs:
           prompt: |
             Review this pull request using the /ewing-review skill in this repo.
             Post the findings as a single PR comment sorted into Blocking, Should fix, Nice to have.
+            For product features, check that the change supports acquisition target discovery,
+            evaluation, prioritization, review, or shortlisting; market intelligence should support
+            an acquisition decision, not become standalone market analytics. Do not require product
+            impact from technical maintenance, and treat greenfield expansion as secondary.
             Confirm the change does not alter acquisition scoring, company classification, or the
             analyst review workflow unless the PR is explicitly about that, and that any such value is
             deterministic and tested. Confirm Sale Signal is not folded into the company score and

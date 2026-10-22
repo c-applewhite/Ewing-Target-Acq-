@@ -6,7 +6,7 @@
 
 ## 1. What this project is (in one paragraph)
 
-The **Acquisition Target Finder** is a small, self-contained **Flask web application** built for **Ewing Outdoor Supply** leadership. It helps answer a strategic question: *"Where should Ewing expand, and which independent landscape/hardscape supply businesses are candidates to acquire?"* An analyst picks a geographic center — either an existing **Ewing branch** or any **U.S. ZIP code** — and the app discovers nearby landscape/hardscape supply companies via Google Places, classifies and scores them as potential acquisition targets, and presents a **Market Snapshot** of demographic and construction-demand signals for that location. It is a decision-support / demo tool, not a transactional system.
+The **Acquisition Target Finder** is a small, self-contained **Flask web application** built for **Ewing Outdoor Supply** leadership. Its primary purpose is to help Ewing identify and prioritize independent landscape, hardscape, stone, masonry, and related suppliers worth investigating for acquisition. An analyst searches around an existing **Ewing branch** or any **U.S. ZIP code**; the app discovers nearby businesses through Google Places, classifies and scores their acquisition fit, and supports analyst review and shortlisting. A **Market Snapshot** adds geographic and market context to help assess acquisition opportunities. Greenfield expansion is a complementary, secondary use—not the central mission. This is a decision-support / demo tool, not a transactional system.
 
 ---
 
@@ -14,9 +14,14 @@ The **Acquisition Target Finder** is a small, self-contained **Flask web applica
 
 **Primary audience:** Ewing Outdoor Supply leadership (non-technical executives) plus an internal analyst who drives the tool.
 
+**Objective hierarchy:**
+- **Primary — acquisition target identification:** discover relevant independent suppliers, evaluate strategic fit, support analyst review, and maintain a shortlist of candidates for leadership consideration.
+- **Secondary — market intelligence for acquisitions:** use geography, customer demand, population, construction activity, and branch coverage to help leadership assess which acquisition opportunities warrant investigation first.
+- **Tertiary — greenfield expansion intelligence:** preserve the ability to scout markets where Ewing could open a location, without making that the central product objective.
+
 **Core goals:**
-- Give leadership a fast, credible read on **where to expand** and **who to acquire**.
-- Make each market and each candidate company understandable **within ~10 seconds** of selecting it — conclusions first, supporting evidence second, technical detail only on request.
+- Help leadership answer **"Which businesses should Ewing investigate acquiring, and why?"**
+- Make each candidate's acquisition fit and supporting market evidence understandable **within ~10 seconds** — conclusions first, evidence second, technical detail only on request.
 - Stay **simple, reliable, and low-risk**. This is a leadership-facing MVP / proof-of-concept, not a production platform.
 
 **Design philosophy (important — these are standing product constraints):**
@@ -30,12 +35,13 @@ The **Acquisition Target Finder** is a small, self-contained **Flask web applica
 
 ## 3. Primary use cases
 
-1. **Market expansion scouting (ZIP search).** An analyst enters any 5-digit U.S. ZIP code and a search radius (10/25/50/75 mi). The app geocodes the ZIP and returns a Market Snapshot (see §6) plus discovered supply businesses in that radius. Use: evaluate a brand-new market where Ewing has no branch.
-2. **Branch-area scouting (Branch search).** An analyst picks an existing Ewing branch as the center and runs the same discovery around it. Use: find acquisition/consolidation targets near current operations.
-3. **Candidate evaluation & review.** For each discovered company, leadership/analyst sees a transparent 100-point acquisition-fit score, a four-class classification, product-category flags, and location details, and can record an analyst decision (confirm/exclude/notes).
+1. **Acquisition target discovery.** An analyst searches around an existing Ewing branch or a ZIP code, and the app finds nearby independent suppliers that may warrant acquisition review.
+2. **Acquisition evaluation and review.** For each discovered company, leadership and the analyst see a transparent 100-point acquisition-fit score, a four-class classification, product-category flags, and location details; the analyst can record a decision and notes.
+3. **Supporting market assessment.** The Market Snapshot provides demographic, construction-demand, and branch-coverage context to help compare the strategic attractiveness of acquisition opportunities.
 4. **Shortlisting (Master List).** Companies of interest can be flagged onto a persistent, run-independent "Master List" that leadership can review across sessions.
-5. **Sale-signal lookup (optional, per company).** An analyst can run a factual web-search check to see whether a specific company appears to be publicly listed for sale. This is kept strictly separate from scoring.
+5. **Sale-signal lookup (optional, per company).** An analyst can run a factual web-search check to see whether a specific company appears to be publicly listed for sale. This is kept strictly separate from scoring; no public listing does not mean a company is unavailable for acquisition.
 6. **Export.** Results can be exported to Excel or CSV for offline sharing.
+7. **Secondary greenfield scouting.** ZIP-based search can also support evaluation of a market where Ewing has no branch, as a complementary use of the existing workflow.
 
 ---
 
@@ -183,13 +189,13 @@ Most run-scoped endpoints require a `run_id`. Key internal helpers in `app.py`: 
 
 Lean MVP sequence agreed with the user, in priority order:
 1. ✅ Validate current data (done).
-2. **Ewing Customer Demand by ZIP** — import Ewing's own customer demand via CSV (`customer_zip`, `customer_id`, `12_month_sales`). This is the intended **strongest** expansion signal.
-3. **Market Comparison page** — compare candidate markets side by side.
-4. **Expansion Opportunity rating** — a simple High/Med/Low rating, weighting Ewing customer demand most heavily.
-5. **Finish Sale Signal** — once the Brave key is available.
-6. **Leadership demo polish.**
+2. **Ewing Customer Demand by ZIP** — import Ewing's own customer demand via CSV (`customer_zip`, `customer_id`, `12_month_sales`) to assess existing Ewing demand near potential acquisition targets. This is a supporting market signal for acquisition evaluation; it does not change the company acquisition-fit score.
+3. **Market Comparison page** — compare markets associated with acquisition candidates side by side, so leadership can prioritize which opportunities warrant investigation. This should not become a standalone market-ranking feature.
+4. **Expansion Opportunity rating** — if retained, provide a transparent, separate market-level High/Med/Low signal to support acquisition evaluation. It is not the company acquisition-fit score; greenfield expansion remains a secondary use.
+5. **Finish Sale Signal** — once the Brave key is available, support factual investigation into whether a company appears publicly listed for sale. No Public Match remains neutral and does not mean a business is unavailable.
+6. **Leadership demo polish** — make acquisition candidates, why they merit investigation, and relevant market context clear to leadership.
 
-**North star:** answer *"Where should Ewing expand?"* — with **Ewing's own customer demand** as the strongest future signal.
+The roadmap order is unchanged. Market demand, comparison, and any market-level rating are intended to support the primary acquisition mission; they do not replace company-level acquisition evaluation.
 
 ---
 

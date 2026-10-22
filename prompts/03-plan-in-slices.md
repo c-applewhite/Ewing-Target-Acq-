@@ -9,5 +9,6 @@ What I want from the plan:
 - Every slice gets its acceptance criteria copied from the PRD, plus anything technical the PRD leaves out.
 - Size each one small, medium, or large. If it's large, split it.
 - End with a section called "What I'd cut if we had to ship in a week."
+- For product features, explain how each slice helps identify, evaluate, prioritize, review, or shortlist acquisition targets and which acquisition decision it supports. Market intelligence should support acquisition evaluation, not become a standalone primary objective. Greenfield expansion remains secondary. Do not apply this product-value test to technical maintenance.
 
 Show me the plan and stop. Don't start building until I say which slice to take.
